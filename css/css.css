@@ -688,19 +688,9 @@ div.actDescription {
     padding-top: 100px;
 }
 
-
-/*.GalleryBstImg .most-popular-img {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: space-between;*/
-/*    align-items: unset;*/
-/*    width: 1160px;*/
-/*    text-align: center;*/
-/*    margin-bottom: 66px;*/
-/*}*/
-
-
+#masonry .item{
+    margin-bottom: 20px;
+}
 
 
 /*-----------------------------------------------*/
