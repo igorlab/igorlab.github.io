@@ -1,0 +1,717 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.header-wrapper {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Step Project Ham/Sections background/section-1(header).jpg");
+    background-attachment: fixed;
+    background-position: 0 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.headerBarWrapper {
+    background-color: rgba(73, 71, 63, 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBar {
+    width: 1160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 26px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a { /*:first-of-type*/
+    font-size: 32px;
+    line-height: 64px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.logo a span {
+    color: #18cfab;
+    font-weight: 700;
+}
+
+.logo a:nth-child(2) {
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.poly {
+    background-image: url("../img/Polygon 1.png");
+    width: 59px;
+    height: 68px;
+    background-position: center;
+    font-size: 40px;
+    line-height: 31px;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.Menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.Menu a:hover {
+    color: #18cfab;
+    border-bottom: #18cfab 2px solid;
+    padding-bottom: 52px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+header .header-overlay {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header-overlay h2 {
+    font-size: 35px;
+    line-height: 10px;
+    color: #ffffff;
+
+    font-weight: 700;
+    text-align: center;
+    margin: 246px 0 40px;
+    text-transform: uppercase;
+}
+
+.header-overlay h2 span {
+    color: #18cfab;
+}
+
+.header-overlay h1 {
+    font-size: 79px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header-overlay h3 {
+    font-size: 34px;
+    color: #d4d4d4;
+    font-weight: 300;
+    margin-bottom: 130px;
+}
+
+/*----- buttons --------*/
+
+.typButton {
+    cursor: pointer;
+    height: 61px;
+    width: 167px;
+    border: none;
+    border-radius: 5px;
+    border-top: white 3px solid;
+    background-color: #18cfab;
+}
+
+.typButton, .typButton a {
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.typButton.purchase {
+    background-color: #00cbf6;
+    margin-left: 20px;
+}
+
+.amazing .typButton {
+    margin-top: 75px;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.typButton img {
+    font-weight: 700;
+}
+
+.typButton span {
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding-top: 10px;
+    font-weight: 900;
+}
+
+.header-buttons {
+    margin-bottom: 244px;
+}
+
+.bought .typButton {
+    margin-bottom: 128px;
+}
+
+.GalleryBstImg .typButton {
+    margin-bottom: 81px;
+}
+
+/*------------------------------------------------------------------------*/
+
+.bicolorhren {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    height: 375px;
+    width: 100%;
+}
+
+.bicolorhren div a img {
+    display: block;
+}
+
+.bicolorhren div:nth-child(odd) {
+    background-color: #1c2a33;
+    border-top: 5px solid #18cfab;
+    height: 100%;
+}
+
+.bicolorhren div:nth-child(even) {
+    background-color: #18cfab;
+    border-top: 5px solid #eeeeee;
+    height: 100%;
+}
+
+.bicolorhren div a {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bicolorhren div:nth-child(odd) a {
+    color: #18cfab;
+}
+
+.bicolorhren div:nth-child(even) a {
+    color: #ffffff;
+}
+
+.bicolorhren div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourServices-wrapper {
+    width: 100%;
+}
+
+.ourServices {
+    width: 1160px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.ourServices h2 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 82px;
+}
+
+.lineWrapper {
+    padding: 31px 0 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.lineWrapper div.line {
+    width: 77px;
+    border-bottom: #18cfab solid 1px;
+
+}
+
+div.lineWrapper div.line:nth-child(even) {
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+.links-services > div {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-services .trangl {
+    display: flex;
+    justify-content: space-around;
+}
+
+.LSmenu {
+    color: #8c8d8d;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    padding: 20px 0 20px;
+    font-size: 16px;
+    line-height: 39px;
+    font-weight: 400;
+    background-color: #f8fcfe;
+}
+
+.triangle-down {
+    margin-bottom: 24px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid white;
+}
+
+.triangle-down.actDescriptionTr {
+    margin-bottom: 24px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid #18cfab;
+}
+
+div.actDescription {
+    background-color: #18cfab;
+    border: 1px solid #18cfab;
+    color: white;
+}
+
+
+.descriptionWrapper > div {
+    display: none;
+}
+
+.descriptionWrapper > div:first-child {
+    display: block;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 17% 83%;
+}
+
+.ourServices .description img {
+    width: 194px;
+    height: 139px;
+}
+
+.ourServices .description .imgText {
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.bought {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Step Project Ham/Sections background/section-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    width: 1160px;
+    text-align: center;
+}
+
+.bought h2 {
+    padding-top: 128px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #18cfab;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.amazing-wrapper {
+    background-color: #F8FCFE;
+}
+
+.amazing {
+    margin: 0 auto;
+    width: 1160px;
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.bought h4 {
+    padding: 35px 0 80px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #d8d8d8;
+    font-weight: 400;
+    text-align: center;
+}
+
+.amazing > h3 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.amazing .linksDesign {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.amazing .linksDesign div {
+    border: 1px solid #ebebeb;
+    padding: 15px 29px 15px;
+}
+
+.amazing .linksDesign .linksDesignActive {
+    border-top: 2px solid #18cfab;
+    color: #18cfab;;
+}
+
+
+.designShow { /*пришлось чтобі убрать отступі между картинками*/
+    margin-top: 75px;
+    width: 1132px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.creative {
+    width: 284px;
+    height: 209px;
+    border-top: 2px solid #18cfab;;
+}
+
+.designShow > img {
+    width: 284px;
+    height: 211px;
+}
+
+.creative > a {
+    text-decoration: none;
+    color: #18cfab;
+    margin-top: 47px;
+    display: inline-block;
+    padding-top: 10px;
+    box-sizing: border-box;
+    width: 41px;
+    height: 41px;
+    border-radius: 42px;
+    border: 2px solid #18cfab;;
+}
+
+.creative a:nth-child(even) {
+    background-color: #18cfab;
+    margin-left: 10px;
+    color: white;
+}
+
+.creative h2 {
+    margin-top: 34px;
+}
+
+.creative h2 a {
+    text-decoration: none;
+    margin-top: 34px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 25px;
+    color: #18cfab;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.creative h3 {
+    font-size: 12px;
+    line-height: 25px;
+    color: #8a8a8a;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.designShow .imgHidden {
+    display: none;
+}
+
+/*----------------------------------------------------------------*/
+.BreakingNews {
+    margin: 0 auto;
+    width: 1160px;
+    text-align: center;
+}
+
+.BreakingNews h3 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 80px;
+}
+
+/*----------------------------------------------------------------*/
+.BreakingContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 45px 28px;
+    margin-bottom: 130px;
+}
+
+.BreakingContent .brWrapper {
+    width: 263px;
+    text-align: left;
+    background-color: #f8fcfe;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.brNewsDate {
+    background-color: #203e38;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    height: 66px;
+    width: 68px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.brNewsDate h6 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.BreakingContent .brWrapper a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 39px;
+    color: #717171;
+    font-weight: 700;
+}
+
+.BreakingContent .brWrapper a:nth-child(2n) {
+    padding-left: 20px;
+}
+
+.BreakingContent .brWrapper h5 {
+    font-size: 14px;
+    line-height: 39px;
+    color: #777777;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.brWrapper:hover a {
+    color: #18cfab;
+}
+
+.brWrapper:hover .brNewsDate {
+    background-color: #18cfab;
+}
+
+.AboutTheHam {
+    margin: 0 auto;
+    width: 1160px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Step Project Ham/Sections background/section-3.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutTheHam h2 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.AboutTheHam h3 {
+    padding: 40px 0 47px;
+    margin: 0 auto;
+    width: 1109px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #bbbbbb;
+    font-weight: 300;
+    text-align: center;
+}
+
+.AboutTheHam h4 {
+    font-size: 16px;
+    line-height: 27px;
+    color: #18cfab;
+    font-weight: 700;
+}
+
+.AboutTheHam h5 {
+    font-size: 12px;
+    line-height: 27px;
+    color: #bbbbbb;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.AboutTheHam .bigPerson {
+    text-align: center;
+    background-image: url("../img/person2.png");
+    background-size: cover;
+    width: 142px;
+    height: 142px;
+    border-radius: 142px;
+    box-shadow: 0 0 0 3px #18cfab, 0 0 0 16px #144847;
+    margin: 20px 0 47px;
+}
+
+.divSlider {
+    margin-bottom: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.divSlider span i {
+    border: #909596 1px solid;
+    /*height: 31px;*/
+    width: 15px;
+    color: #667072;
+    text-align: center;
+    padding: 10px;
+}
+
+.imgPersonInfo{
+    display: none;
+}
+
+.divSlider span i:hover {
+    background-color: #18cfab;
+    color: #eeeeee;
+}
+
+.AboutTheHam .divSlider img {
+    width: 75px;
+    height: 75px;
+    margin: 25px 20px;
+    border-radius: 142px;
+    box-shadow: 0 0 0 0px #18cfab, 0 0 0 5px #144847;
+}
+
+.AboutTheHam .divSlider img.activeImg {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 0 2px #18cfab, 0 0 0 5px #144847;
+}
+
+.AboutTheHam .divSlider img:hover {
+    animation: bloom ease-in-out .75s forwards;
+}
+
+@keyframes bloom {
+    0% {
+        opacity: .5;
+        background: rgba(213,156,34,.2);
+
+    }
+    100% {
+        opacity: 1;
+        background: rgba(213,34,160,.2);
+    }
+}
+
+
+.GalleryBstImg {
+    margin: 0 auto;
+    width: 1160px;
+    text-align: center;
+}
+
+.GalleryBstImg h2 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.GalleryBstImg .most-popular-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: unset;
+    width: 1160px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+
+/*-----------------------------------------------*/
+footer {
+    padding: 45px;
+    background-color: #22353f;
+    font-size: 14px;
+    line-height: 26px;
+    color: #aeaeae;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer span {
+    color: #18cfab;
+}
