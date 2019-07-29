@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/imitation_downloading.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0e445e1c77.js"></script>
-    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+    <script src="/js/masonry.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/js.js"></script>
 
@@ -413,7 +413,8 @@
         <span class="next"><i class="fa fa-angle-left fa-1x"></i> </span>
         <img data-id="1" src="img/person0.png" alt="">
         <div data-id="1" class="imgPersonInfo">
-            <h2 class="description">Atque commodi iste maxime quam quas quidem, vero voluptas. Accusamus aliquam atque, consequatur ea eos
+            <h2 class="description">Atque commodi iste maxime quam quas quidem, vero voluptas. Accusamus aliquam atque,
+                consequatur ea eos
                 eveniet magnam
                 maxime molestiae odit quas qui!Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem,
                 non dictum odio nisi quis massa.
@@ -434,7 +435,8 @@
 
         <img data-id="3" class="activeImg" src="img/person2.png" alt="">
         <div data-id="3" class="imgPersonInfo">
-            <h2 class="description">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa.
+            <h2 class="description">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum
+                odio nisi quis massa.
                 Morbi
                 pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio
                 nisi quis
@@ -446,7 +448,8 @@
 
         <img data-id="4" src="img/person3.png" alt="">
         <div data-id="4" class="imgPersonInfo">
-            <h2 class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi asperiores aspernatur
+            <h2 class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi
+                asperiores aspernatur
                 blanditiis consectetur deleniti distinctio ducimus, fuga fugit ipsam, natus nostrum obcaecati officia,
                 perspiciatis placeat quae quasi ullam.
             </h2>
@@ -469,12 +472,14 @@
 
 
     <div class="most-popular-img">
-        <img class="element-item"  src="img/post-1-img.png" alt="">
-        <img class="element-item"  src="img/post-2-img.png" alt="">
-        <img class="element-item"  src="img/post-3-img.png" alt="">
-        <img class="element-item"  src="img/post-4-img.png" alt="">
-        <img class="element-item"  src="img/post-5-img.png" alt="">
-        <img class="element-item"  src="img/post-6-img.png" alt="">
+        <div id="masonry">
+            <img class="item" src="img/post-1-img.png" alt="">
+            <img class="item" src="img/post-2-img.png" alt="">
+            <img class="item" src="img/post-3-img.png" alt="">
+            <img class="item" src="img/post-4-img.png" alt="">
+            <img class="item" src="img/post-5-img.png" alt="">
+            <img class="item" src="img/post-6-img.png" alt="">
+        </div>
     </div>
 
     <button class="typButton"><a href="#"><span>+</span>load more</a></button>

@@ -56,7 +56,7 @@ $(document).ready(function () {
         carousel('backward');
     });
 
-    $(".divSlider span.prev").on("click", function () {
+   $(".divSlider span.prev").on("click", function () {
         carousel('forward');
     });
 
@@ -67,10 +67,10 @@ $(document).ready(function () {
         updateInfo(idOfActive);
     });
 
-    $('.most-popular-img').masonry({
-        // options
-        itemSelector: '.element-item',
-        columnWidth: 280
+    let container = document.querySelector('#masonry');
+    let masonry = new Masonry(container, {
+        columnWidth: 400,
+        itemSelector: '.item'
     });
 
 });
