@@ -69,7 +69,7 @@ $(document).ready(function () {
 
     let container = document.querySelector('#masonry');
     let masonry = new Masonry(container, {
-        columnWidth: 400,
+        columnWidth: 370,
         itemSelector: '.item'
     });
 
