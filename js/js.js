@@ -67,10 +67,11 @@ $(document).ready(function () {
         updateInfo(idOfActive);
     });
 
-    let container = document.querySelector('#masonry');
-    let masonry = new Masonry(container, {
+    const container = $('#masonry');
+    const masonry = new Masonry(container, {
         columnWidth: 370,
-        itemSelector: '.item'
+        itemSelector: '.item',
+
     });
 
 });
