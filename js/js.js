@@ -35,7 +35,7 @@ $(document).ready(function () {
 
         $(".designShow > img").each(function () {
             if (!$(this).hasClass('imgHidden')) {
-                if (idLinksDesign == 0) $(this).show();
+                if (idLinksDesign == '0') $(this).show();
                 else {
                     if ($(this).attr('data-id') === idLinksDesign) {
                         $(this).show();
@@ -67,7 +67,7 @@ $(document).ready(function () {
         updateInfo(idOfActive);
     });
 
-    const container = $('#masonry');
+    const container = $('#masonry'); // https://masonry.desandro.com/options.html
     const masonry = new Masonry(container, {
         columnWidth: 370,
         itemSelector: '.item',
@@ -78,7 +78,8 @@ $(document).ready(function () {
 });
 
 function carousel(direction) {
-    const imgPersonActive = Number.parseInt($('.AboutTheHam .divSlider img.activeImg').attr('data-id'));
+    const imgPerson = $('.AboutTheHam .divSlider img.activeImg');
+    const imgPersonActive = Number.parseInt(imgPerson.attr('data-id'));
     const imgAboutPersons = $('.AboutTheHam .divSlider img');
     let showNextImg;
     if (direction === 'backward') {
@@ -94,7 +95,7 @@ function carousel(direction) {
             showNextImg = imgPersonActive + 1;
         }
     }
-    $('.AboutTheHam .divSlider img.activeImg').removeClass("activeImg");
+    imgPerson.removeClass("activeImg");
     imgAboutPersons.eq(showNextImg - 1).addClass("activeImg");
 
     updateInfo(showNextImg);
