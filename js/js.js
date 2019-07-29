@@ -99,8 +99,9 @@ function carousel(direction) {
 }
 
 function updateInfo(dataId) {
+    //https://igorlab.github.io/img/person2.png
 
-    const NewImg = 'igorlab.github.io/' + $('.AboutTheHam .divSlider img.activeImg').attr('src');
+    const NewImg = $('.AboutTheHam .divSlider img.activeImg').attr('src');
     $('.AboutTheHam .bigPerson').css('background-image', `url("/${NewImg}")`);
 
     const newH3 = $('.AboutTheHam .divSlider .imgPersonInfo>h2.description').eq(dataId - 1).text();
