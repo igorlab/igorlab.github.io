@@ -71,7 +71,8 @@ $(document).ready(function () {
     const masonry = new Masonry(container, {
         columnWidth: 370,
         itemSelector: '.item',
-
+        gutter: 10,
+        horizontalOrder: true
     });
 
 });
